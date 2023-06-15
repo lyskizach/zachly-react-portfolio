@@ -2,7 +2,11 @@
 import React from 'react';
 
 const Navigation = ({ currentPage, handlePageChange }) => {
-    
+    return (
+        <div>
+            
+        </div>
+    );
 };
 
 export default Navigation;
