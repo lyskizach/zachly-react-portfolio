@@ -1,10 +1,12 @@
 import './App.css';
+import React from 'react';
+import PortfolioContainer from './components/PortfolioContainer';
 // import components
 
 function App() {
     return (
-        <div className='react-app'>
-            {/* render imported particles */}
+        <div className='App'>
+            <PortfolioContainer />
         </div>
     );
 };
