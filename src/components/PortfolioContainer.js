@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Navigation from './Navigation';
+// import Navigation from './Navigation';
 import Header from './Header';
 import Footer from './Footer';
 
@@ -33,8 +33,7 @@ const PortfolioContainer = () => {
 
       return (
         <div className="portfolio-container">
-            <Header />
-            <Navigation currentPage={currentPage} handlePageChange={handlePageChange}/>
+            <Header currentPage={currentPage} handlePageChange={handlePageChange}/>
             {renderPage()}
             <Footer/>
         </div>
